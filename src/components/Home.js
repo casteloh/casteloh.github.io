@@ -5,9 +5,9 @@ import headshot from '../images/DSC_6678.jpeg'
 
 export default function Home() {
   return <section className="section">
-    <div className="columns">
+    <div className="columns is-desktop">
       <div className="column"></div>
-      <div className="column is-one-third">
+      <div className="column is-one-third-desktop">
         <img src={headshot}></img><br /><br />
         <p className="subtitle">Castel Occupational Health Ltd</p>
         <p>Castel Occupational Health Ltd is an independent specialist occupational health company. Its founder is Dr Christopher Schenk MBBS DAvMed DRCOG MFOM.<br /><br />
@@ -36,6 +36,6 @@ export default function Home() {
         </ul>
       </div>
       <div className="column"></div>
-</div>
+    </div>
   </section>
 }

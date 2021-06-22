@@ -65,9 +65,9 @@ export default function Contact() {
   }
 
   return <section className="section">
-    <div className="columns">
+    <div className="columns is-mobile">
       <div className="column"></div>
-      <div className="column is-one-third">
+      <div className="column is-one-third is-three-quarters-mobile">
         <p className="subtitle">Contact Us</p>
         <p>Please email us using the form below and we will get back to you as soon as possible.<br /><br />
         Many thanks,<br /><br />
