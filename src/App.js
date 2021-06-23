@@ -7,7 +7,7 @@ import Navbar from './components/Navbar'
 import './styles/style.scss'
 
 const App = () => (
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter>
     <Navbar />
     <Switch>
       <Route exact path="/" component={Home} />
